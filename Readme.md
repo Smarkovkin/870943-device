@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Lev Kulakov](https://up.htmlacademy.ru/htmlcss/23/user/870943).
-* Наставник: Полина Катышева.
+* Наставник: [Полина Катышева](https://htmlacademy.ru/profile/polina).
 
 ---
 
