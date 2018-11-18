@@ -6,7 +6,218 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+    <header class="header">
+      <a class="header-logo">
+          <img src="logo.png" alt="Логотип интернет-магазина Девайс">
+      </a>
+      <div>
+          <input type="text" class="find">
+          <ul class="user-navigation">
+            <li class="login-link"><a href="user.html">Вход</a></li>
+          </ul>
+          <a href="compar.html">Сравнить</a>
+          <a href="cart.html">Карзина</a>
+          <nav class="navigation">
+            <ul class="site-navigation">
+              <li class="navigation-item"><a href="catalog.html">Каталог товаров</a>
+                <ul>
+                  <li><a href="1.html">Виртуальная реальность</a></li>
+                  <li><a href="2.html">Моноподы для селфи</a></li>
+                  <li><a href="3.html">Экшн-камеры</a></li>
+                  <li><a href="4.html">Фитнес-браслеты</a></li>
+                  <li><a href="5.html">Умные часы</a></li>
+                  <li><a href="6.html">Квадрокоптеры</a></li>
+                </ul>
+              </li>
+              <li class="navigation-item"><a href="dostavka.html">Доставка</a></li>
+              <li class="navigation-item"><a href="garantia.html">Гарантия</a></li>
+              <li class="navigation-item"><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="visually-hidden">Интернет-магазин Девайс</h1>
+
+      <section class="slider">
+        <h2>Слайдер товаров</h2>
+        <ul class="slider-list">
+          <li class="slider-item">
+            <span class="slider-item-number">01</span>
+            <h3>
+              <a href="catalog-item.html">Делай селфи, как Бен Стиллер!</a>
+            </h3>
+            <p class="slider-item-img">
+                <img src="foto.img" alt="Делай селфи, как Бен Стиллер!">
+            </p>
+            <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+            <a href="selfi.html">Подробнее</a>
+            <table class="slider-item-able">
+              <tr>
+                <th>Длина палки</th>
+                <th>Вес палки</th>
+                <th>Материал</th>
+              </tr>
+              <tr>
+                <td>8,5 м</td>
+                <td>5 кг</td>
+                <td>Карбон</td>
+              </tr>
+            </table>
+          </li>
+          <li class="slider-item visually-hidden">
+            <span class="slider-item-number">02</span>
+            <h3>
+              <a href="catalog-item.html">Худеем правильно!</a>
+            </h3>
+            <p class="slider-item-img">
+              <img src="foto.img" alt="Худеем правильно!">
+            </p>
+            <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+            <a href="selfi.html">Подробнее</a>
+            <table class="slider-item-able">
+              <tr>
+                <th>Без подзарядки</th>
+              </tr>
+              <tr>
+                <td>48 часов</td>
+              </tr>
+            </table>
+          </li>
+          <li class="slider-item visually-hidden">
+            <span class="slider-item-number">02</span>
+            <h3>
+              <a href="catalog-item.html">Порхает как бабочка, жалит как пчела!</a>
+            </h3>
+            <p class="slider-item-img">
+              <img src="foto.img" alt="Порхает как бабочка, жалит как пчела!">
+            </p>
+            <p>Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+            <a href="selfi.html">Подробнее</a>
+            <table class="slider-item-able">
+              <tr>
+                <th>Дальнось полета</th>
+                <th>Радиус поражения</th>
+              </tr>
+              <tr>
+                <td>800 м</td>
+                <td>50 м</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </section>
+      <section class="products">
+        <h2 class="visually-hidden">Товары</h2>
+        <ul>
+          <li>
+            <img src="foto.jpg" alt="Виртуальная реальность">
+            <p>Виртуальная реальность</p>
+          </li>
+          <li>
+            <img src="foto.jpg" alt="Моноподы для селфи">
+            <p>Моноподы для селфи</p>
+          </li>
+          <li>
+            <img src="foto.jpg" alt="Фитнес-браслеты">
+            <p>Фитнес-браслеты</p>
+          </li>
+          <li>
+            <img src="foto.jpg" alt="Экшн-камеры">
+            <p>Экшн-камеры</p>
+          </li>
+          <li>
+            <img src="foto.jpg" alt="Умные часы">
+            <p>Умные часы</p>
+          </li>
+          <li>
+            <img src="foto.jpg" alt="Квадрокоптер">
+            <p>Квадрокоптер</p>
+          </li>
+        </ul>
+      </section>
+      <section class="servises">
+        <h2 class="visually-hidden">Сервисы</h2>
+        <ul class="servises-list">
+          <li class="servises-item">
+            <b>Доставка</b>
+            <h3>Доставка</h3>
+            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+            <img src="foto.jpg" alt="Доставка">
+          </li>
+          <li class="servises-item">
+            <b>Гарантия</b>
+            <h3>Гарантия</h3>
+            <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
+            <img src="foto.jpg" alt="Гарантия">
+          </li>
+          <li class="servises-item">
+            <b>Кредит</b>
+            <h3>Кредит</h3>
+            <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
+            <img src="foto.jpg" alt="Кредит">
+          </li>
+        </ul>
+      </section>
+      <section class="companies">
+        <h2>Компании</h2>
+        <ul>
+          <li><img src="foto.jpg" alt="Компания"></li>
+          <li><img src="foto.jpg" alt="Компания"></li>
+          <li><img src="foto.jpg" alt="Компания"></li>
+          <li><img src="foto.jpg" alt="Компания"></li>
+        </ul>
+      </section>
+      <section class="aboutus">
+        <h2>О нас</h2>
+        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями</p>
+        <ul>
+          <li>Деловые Линии</li>
+          <li>Автотрейдинг</li>
+          <li>ЖелДорЭкспедиция</li>
+          <a href="about.html">Подробнее о нас</a>
+        </ul>
+      </section>
+      <section class="contacts">
+        <h2>Контакты</h2>
+        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+        <img src="map.jpg" alt="Карта">
+        <a href="contacts.html">Напишите нам</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="footer-logo">
+        <img src="logo.png" alt="Логотип интернет-магазина Девайс">
+      </a>
+      <ul class="user-navigation">
+        <li class="login-link"><a href="user.html">Вход</a></li>
+      </ul>
+      <a href="compar.html">Сравнить</a>
+      <a href="cart.html">Карзина</a>
+      <p class="addres">г. Москва, ул. Строителей, 15</p>
+      <nav class="footer-navigation">
+        <ul class="site-navigation">
+          <li class="navigation-item"><a href="dostavka.html">Доставка</a></li>
+          <li class="navigation-item"><a href="garantia.html">Гарантия</a></li>
+          <li class="navigation-item"><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <p class="phone">Тел.: +7 (495) 495-95-95</p>
+      <div class="footer-social">
+        <ul>
+          <li><a class="social-button" href="#">Твиттер</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Разработано:</b> 
+        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+      </p>
+    </footer>
 
   </body>
 </html>
