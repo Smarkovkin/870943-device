@@ -143,6 +143,10 @@ a {
   padding-bottom: 159px;
 }
 
+.header-navigation-inner {
+  margin-bottom: 38px;
+  padding-bottom: 47px;
+}
 
 .logo-link {
   position: absolute;
@@ -1987,6 +1991,10 @@ a {
   margin-left: 20px;
 
   color: rgba(255, 255, 255, 0.3);
+}
+
+.link-logout {
+  opacity: 0.3;
 }
 
 .modal {
