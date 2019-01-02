@@ -1345,7 +1345,7 @@ a {
 }
 
 .main-header {
-  margin-bottom: 45px;
+  margin-bottom: 40px;
   padding-left: 60px;
 }
 
@@ -1417,7 +1417,7 @@ a {
 
   display: block;
   width: 100%;
-  height: 76px;
+  height: 70px;
 
   background-color: #ebebeb;
 }
@@ -1433,7 +1433,7 @@ a {
   width: 100%;
   height: 100%;
 
-  background: linear-gradient( to bottom, #dbdbdb 0px, #dbdbdb 76px, #efefef 76px);
+  background: linear-gradient( to bottom, #dbdbdb 0px, #dbdbdb 70px, #efefef 70px);
 }
 
 .content-container {
@@ -1448,7 +1448,7 @@ a {
   display: flex;
   align-items: center;
   margin: 0;
-  padding: 23px 5px;
+  padding: 20px 5px;
   padding-left: 60px;
 
   font-weight: 800;
@@ -1480,9 +1480,9 @@ a {
 
   width: 100%;
   margin: 0;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   padding: 0;
-  padding-top: 11px;
+  padding-top: 10px;
 
   font-weight: 800;
   font-size: 18px;
@@ -1510,8 +1510,8 @@ a {
   display: flex;
   width: 160px;
   margin: 0;
-  margin-bottom: 6px;
-  padding: 5px 0;
+  margin-bottom: 5px;
+  padding: 2px 0;
   padding-left: 40px;
   padding-left: 40px;
 
@@ -1552,7 +1552,7 @@ a {
   position: relative;
 
   display: flex;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   padding: 30px;
 }
 
@@ -1643,7 +1643,7 @@ a {
 }
 
 .filter-group-checkbox {
-  margin-bottom: 29px;
+  margin-bottom: 32px;
 }
 
 .filter-label-checkbox::before {
@@ -1719,7 +1719,7 @@ a {
 
 .sorting-title {
   margin: 0;
-  padding: 23px 5px;
+  padding: 20px 5px;
 
   font-weight: 800;
   font-size: 16px;
@@ -1810,12 +1810,12 @@ a {
   position: relative;
 
   width: 360px;
-  margin-top: 45px;
+  margin-top: 46px;
   margin-left: 40px;
 }
 
 .catalog-card-img-block {
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .catalog-card-block {
@@ -1828,6 +1828,7 @@ a {
   font-size: 18px;
   font-family: "Gilroy", "Arial", sans-serif;
   color: #000000;
+  line-height: 25px;
 }
 
 .catalog-card-block-price {
@@ -1911,7 +1912,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 78px;
+  margin-bottom: 72px;
   margin-left: 72px;
 
   background-color: #ebebeb;
